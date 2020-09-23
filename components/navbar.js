@@ -28,6 +28,11 @@ const Navbar = ({ children }) => {
               Todo
             </a>
            </Link>
+           <Link href="/forms">
+           <a className={`nav-link ${styles.navlink}`} >
+              Form
+            </a>
+           </Link>
           </div>
         </div>
       </nav>
